@@ -47,10 +47,16 @@ Images:
 
 #row1 {
     align-content: left;
-    padding: 10% 50% 0% 0%; 
+    padding: 0% 70% 0% 0%; 
+    border: dotted 1rem red;
 }
 #row2 {
     align-self: right;
-    padding: 0% 0% 10% 50%;
+    margin: 0% 0% 0% 70%;
+    padding: 0% 0% 0% 0%;
+    border: dotted 1rem red;
+}
+img {
+    width: 100%;
 }
 
