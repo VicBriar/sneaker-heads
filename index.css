@@ -31,8 +31,7 @@ Images:
 #image{
     background-image: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg);
     background-size: cover;
-    display: block;
-    margin: 20% 20%;
+    margin: auto 20% auto 20%;
    /* margin-left: auto;
     margin-right: auto;*/
     width: 50%;
@@ -40,23 +39,26 @@ Images:
 
 #sneaker_heading{
     font: copperplate; 
-    border: solid 10px black;  
+    color:blueviolet;
+    background-image: linear-gradient(rgb(172, 241, 249),rgb(225, 34, 34));
+    border: dotted 10px rgb(255, 255, 255);  
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3rem;
+    text-decoration: underline;
 }
-
+/*top right bottom left*/
 #row1 {
-    align-content: left;
+    margin: 0% 30% 0% 0%;
     padding: 0% 70% 0% 0%; 
     border: dotted 1rem red;
 }
 #row2 {
-    align-self: right;
-    margin: 0% 0% 0% 70%;
-    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 30%;
+    padding: 0% 70% 0% 0%;
     border: dotted 1rem red;
 }
-img {
+/*I'm really struggling to get the text width to match the padding. The text is actively stretching the box down and I dunno how to stop it :(*/
+#row1-section2 {
+    display: block;
     width: 100%;
 }
-
