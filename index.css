@@ -25,12 +25,32 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+* {
+    font-family:'Copperplate', Courier, monospace
+}
 #image{
     background-image: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg);
     background-size: cover;
+    display: block;
+    margin: 20% 20%;
+   /* margin-left: auto;
+    margin-right: auto;*/
+    width: 50%;
 }
 
 #sneaker_heading{
     font: copperplate; 
     border: solid 10px black;  
+    text-align: center;
+    font-size: 1.5em;
 }
+
+#row1 {
+    align-content: left;
+    padding: 10% 50% 0% 0%; 
+}
+#row2 {
+    align-self: right;
+    padding: 0% 0% 10% 50%;
+}
+
